@@ -39,7 +39,7 @@ models.append(('CART', DecisionTreeClassifier()))
 models.append(('NB', GaussianNB()))
 models.append(('SVM', SVC(gamma='auto')))
 
-# Évaluation des successives des modèles
+# Évaluation successives des modèles
 results = []
 names = []
 for name, model in models:
